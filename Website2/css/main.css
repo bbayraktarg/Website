@@ -1,0 +1,330 @@
+html,
+body,
+#cover{
+	height: 100%; width:100%; 
+}
+#cover{
+	background: url("../images/background7.jpg") no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+.fixed-top {
+	max-width: 1140px;
+	margin: 20px auto;
+	transition: 0.2s all linear;
+}
+h1{
+	margin-top: 20%;
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #ffffff;
+	font-size: 40px;
+	font-style: italic;
+	margin-bottom: 30px;
+}
+h2{
+	font-family: 'Permanent Marker', cursive;
+	color: #ffffff;
+  	font-size: 75px;
+  	font-weight: 700;
+  	margin-bottom: 30px;
+}
+.btn-primary{
+	background-color: #fed130;
+	border-style: none;
+	text-transform: uppercase;
+	font-family: 'Margarine', cursive;
+	font-size: 15px;
+	padding: 20px 40px;
+}
+.btn-primary:hover{
+	background-color: #ffffff;
+	color: #fed130
+}
+a.nav-link{
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 13px;
+	color: #ffffff !important;
+	transition: color 0.5s ease;
+	-webkit-transition: color 0.5s ease;
+	-moz-transition: color 0.5s ease;
+	-o-transition: color 0.5s ease;
+}
+a.nav-link:hover{
+	color: #fed130 !important;
+}
+#services{
+	padding: 120px 0;
+}
+.services-top h3, .portföy-top h3, .hakkinda-top h3{
+	font-family: 'Sniglet', cursive;
+	font-size: 40px;
+	font-weight: 700;
+}
+.services-top p, .portföy-top p, .hakkinda-top p{
+	font-family: 'Sniglet', cursive;
+	font-size: 16px;
+	font-style: italic;
+	color: #777;
+	margin-bottom: 70px;
+
+}
+.item-circle{
+	border: 3px solid #fed130;
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	border-radius: 200px;
+}
+.services-content i{
+	color: #fed130;
+	line-height: 95px;
+}
+.services-content h4{
+	font-family: 'Sniglet', cursive;
+	font-size: 18px;
+	font-weight: 700;
+	color: #222;
+	margin-top:15px;
+}
+.services-content p{
+	font-family: 'Margarine', cursive;
+	font-size: 14px;
+	color: #777;
+}
+
+.services-top h3{
+	padding-bottom: 45px;
+}
+#portföy{
+	background: url("../images/background6.jpg") no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	padding-top: 120px;
+	padding-bottom: 70px;
+}
+#services{
+	background: url("../images/background5.jpg") no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+.card{
+	border-style: none;
+}
+.portföy-content .row{
+	margin-bottom: 50px;
+}
+.portföy-content .card-title{
+	font-family: 'Sniglet', cursive;
+	font-size: 22px;
+	font-weight: 700;
+}
+.portföy-content .card-subtitle{
+	font-family: 'Sniglet', cursive;
+	font-size: 15px;
+	font-style: italic;
+}
+.portföy-top p{
+	color: white;
+}
+#hakkinda{
+	background: url("../images/background7.jpg") no-repeat center center fixed;
+	background-size: cover;
+	padding-top: 120px;
+	padding-bottom: 30px;
+}
+.hakkinda-content .row{
+	margin-bottom: 90px;
+}
+.hakkinda-content h4{
+	font-family: 'Sniglet', cursive;
+	font-size: 18px;
+	font-weight: 700;
+	color: white;
+}
+.hakkinda-top h3{
+	color: white;
+}
+.hakkinda-content p{
+	font-family: 'Margarine', cursive;
+	font-size: 14px;
+	color: #777;
+}
+.hakkinda-circle {
+	position: relative;
+	text-align: center;
+}
+.hakkinda-circle:before{
+	top:0;
+	bottom:0;
+	position: absolute;
+	content: " ";
+	width:175px;
+	height:175px;
+	background-color: #fed130;
+	border-radius: 170px;
+	border:8px solid #f1f1f1;
+	left:50%;
+	margin-left: -91.5px;
+}
+.hakkinda-circle .yellow-text{
+	position: relative;
+	z-index: 1;
+	padding-top: 40px;
+	font-family: 'Sniglet', cursive;
+	font-size: 18px;
+	font-weight: 700;
+	color:white;
+} 
+#takim{
+	padding-top: 120px;
+	padding-bottom: 70px;
+	background-color: #f9f9f9;
+	background: url("../images/background6.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+.takim-top h3{
+	font-family: 'Sniglet', cursive;
+	font-size: 40px;
+	font-weight: 700;
+}
+.takim-top p{
+	font-family: 'Margarine', cursive;
+	font-size: 16px;
+	font-style: italic;
+	color: white;
+	margin-bottom:70px;
+}
+.takim-circle {
+	width: 220px;
+	height: 220px;
+	border-radius: 220px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+} 
+.takim-content h4{
+	font-family: 'Margarine', cursive;
+	font-size: 16px;
+	font-style: italic;
+}
+.takim-content h5{
+	font-family: 'Margarine', cursive;
+	font-size: 14px;
+	color: white;
+}
+.social-icons {
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+}
+.social-icon{
+	display: inline;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: black;
+} 
+.social-icon .fab{
+	border: 2px solid black;
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+	line-height: 26px;
+}
+.takim-content p{
+	margin: 50px auto;  
+    font-family: 'Margarine', cursive;
+	font-size: 16px;
+	color: #777;
+}
+#partner{
+	padding: 60px 0;
+}
+#contact{
+    background: url("../images/background7.jpg") no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	padding: 120px 0;
+}
+.contact-top h3{
+	font-family: 'Sniglet', cursive;
+	font-size: 40px;
+	font-weight: 700;
+	color: white;
+}
+.contact-top p{
+	font-family: 'Margarine', cursive;
+	font-size: 16px;
+	font-style: italic;
+	color: white;
+	margin-bottom:70px;
+}
+#name, #email, #subject {
+	width: 90%;
+	height: 50px;
+	margin-bottom: 26px;
+	border-style: none;
+	border-radius: 3px;
+	padding-left: 20px;
+	margin-left: 5%;
+}
+.mes {
+	width: 90%;
+	height: 203px;
+	border-style: none;
+	border-radius: 3px;
+	padding-left: 20px;
+	padding-top: 15px;
+	margin-left: 5%;
+}
+#footer{
+	padding: 20px 0;
+
+}
+#footer p{
+	font-family: 'Sniglet', cursive;
+	font-size: 14px;
+	font-weight: 400;
+	color: #555555;
+	line-height: 40px;
+}
+.company-social-icons{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.company-social-icon{
+	display: inline;
+	padding-left: 9px;
+	padding-right: 9px;
+	color: white;
+}
+.company-social-icon .fab{
+	width: 40px;
+	height: 40px;
+	border-radius: 40px;
+	background-color: black;
+	line-height: 40px;
+}
+.fixed-top.change-color{
+	margin-top: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	max-width: 2000px;
+}
+.fixed-top.change-fix-top{
+	margin-top: 0;
+	background-color: black;
+	max-width: 2000px;
+}
+.s2{
+	margin-top: 13px;
+}
+.s3{
+	margin-top: 29px;
+}
